@@ -64,3 +64,17 @@ const tinderUser = {
 // console.log(Object.keys(tinderUser)); // Output: [ 'email', 'fullName' ]
 // console.log(Object.values(tinderUser)); // Output: [ 'sanchit@example.com', { userFullName: [Object] } ]
 // console.log(Object.entries(tinderUser)); // Output: [ [ 'email', 'sanchit@example.com' ], [ 'fullName', { userFullName: [Object] } ] ]
+
+// ******************************* Objects Destructuring *******************************
+// const user = {
+//     name: "Sanchit",
+//     age: 25,
+//     email: "sanchit@example.com"
+// };
+
+// // Destructuring
+// const { name, age, email: userEmail } = user;
+
+// console.log(name); // Output: Sanchit
+// console.log(age); // Output: 25
+// console.log(userEmail); // Output: sanchit@example.com
